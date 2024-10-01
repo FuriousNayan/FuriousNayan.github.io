@@ -30,16 +30,16 @@
 10. Panera Bread
 
 ### Colors I haven't truly ever seen
-[x] Blue
-[x] Green
-[] Red
-[] Yellow
-[x] Purple
-[x] Magenta
-[] Black
-[] White
-[] Gray
-[x] Brown
+- [x] Blue
+- [x] Green
+- [] Red
+- [] Yellow
+- [x] Purple
+- [x] Magenta
+- [] Black
+- [] White
+- [] Gray
+- [x] Brown
 
 ### Tuff Websites
 [Mi Cancun](https://www.micancunmx.com/)
