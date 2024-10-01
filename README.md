@@ -32,13 +32,13 @@
 ### Colors I haven't truly ever seen
 - [x] Blue
 - [x] Green
-- [] Red
-- [] Yellow
+- [ ] Red
+- [ ] Yellow
 - [x] Purple
 - [x] Magenta
-- [] Black
-- [] White
-- [] Gray
+- [ ] Black
+- [ ] White
+- [ ] Gray
 - [x] Brown
 
 ### Tuff Websites
