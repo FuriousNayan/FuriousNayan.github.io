@@ -53,3 +53,53 @@
 [Blackboard](https://blackboard.waketech.edu/ultra/institution-page)
 
     - I enjoy doing my NOS and CTI assignments, as Mr. Gardner as my teacher. 
+
+
+
+## My Mermaid Charts
+
+### Get Ready Routine
+``` mermaid
+flowchart TD;
+    Start-->Wake_Up;
+
+    Wake_Up-->Did_You_Sleep_Well?;
+
+    Did_You_Sleep_Well?-->Yes;
+
+    Did_You_Sleep_Well?-->No;
+
+    No-->Drink_More_Coffee
+
+    Yes-->Feel_Refreshed
+
+    Feel_Refreshed-->Brush_Your_Teeth
+
+    Drink_More_Coffee-->Brush_Your_Teeth
+
+    Brush_Your_Teeth-->Take_a_Shower
+
+    Take_a_Shower-->Put_On_Clothes
+
+    Put_On_Clothes-->Comfy_Clothes
+
+    Put_On_Clothes-->Fashionable_Clothes
+
+    Fashionable_Clothes-->Eat_Breakfast
+
+    Comfy_Clothes-->Eat_Breakfast
+
+    Eat_Breakfast-->Healthy
+
+    Eat_Breakfast-->Junk
+
+    Healthy-->Feel_Good
+
+    Junk-->Feel_Bad
+
+    Feel_Good-->Go_to_the_Car
+
+    Feel_Bad-->Go_to_the_Car
+
+    Go_to_the_Car-->Get_To_School
+    
