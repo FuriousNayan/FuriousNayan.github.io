@@ -101,5 +101,21 @@ flowchart TD;
 
     Feel_Bad-->Go_to_the_Car
 
-    Go_to_the_Car-->Get_To_School
+    Go_to_the_Car-->Get_To_School;
+
+```
+
+### My Sankey 24-Hour Day
+``` mermaid
+sankey-beta
+24-Hour-Day,Sleep,8
+24-Hour-Day,School,7
+24-Hour-Day,Workout,1
+24-Hour-Day,Doom-Scrolling,3
+24-Hour-Day,Eating,2
+24-Hour-Day,Homework,1
+24-Hour-Day,Hygiene,1
+24-Hour-Day,SAT,1
+
+```
     
