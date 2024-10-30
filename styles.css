@@ -10,6 +10,7 @@ body {
 .profile {
     text-align: center;
     color: #76aab5;
+    font-size: large;
     
 }
 
@@ -33,7 +34,9 @@ p{
 }
 
 .navbar {
-    position: sticky;
+    width: 90%;
+    position: -webkit-sticky;
+    position: fixed;
     top:0;
     display: flex;
     flex-wrap: wrap;
@@ -68,6 +71,19 @@ p{
 
 
 
+ol {
+    color: #76aab5;
+}
+
+h4 {
+    font-size: large;
+}
+
+
+
+.heads{
+    margin-top: 100px;
+}
 
 
 
