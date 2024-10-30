@@ -1,0 +1,81 @@
+body {
+    background-color: #191728;
+}
+
+* {
+    font-family: 'Poppins';
+}
+
+
+.profile {
+    text-align: center;
+    color: #76aab5;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #F9F7F7;
+}
+
+p{
+    color: #76aab5;
+    text-align: center;
+}
+
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 70%;
+}
+
+.navbar {
+    position: sticky;
+    top:0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    justify-content: space-evenly; /* Evenly space items */
+    align-items: center; /* Center items vertically */
+}
+
+#navlist {
+    
+    flex: 1; /* Make each item take equal space */
+    text-align: center; /* Center text within each item */
+}
+
+#navlist a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navlist a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+
+
+
+
+
+
+/* Color Palette:
+Light Shades: #F9F7F7;
+Light Accent: #76AAB5;
+Main Brand Color: #877DA1;
+Dark Accent: #659AAF;
+Dark Shades: #191728;
+*/
