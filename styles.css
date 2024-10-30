@@ -15,13 +15,13 @@ body {
 }
 
 
-.allinfo{
-    width: 200px;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
+.allinfo {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto; /* Centers the element horizontally */
+    color: #76aab5;
 }
+
 
 h1 {
     text-align: center;
@@ -82,10 +82,12 @@ p{
 
 ol {
     color: #76aab5;
+    
 }
 
 h4 {
     font-size: large;
+    color: white;
 }
 
 
@@ -95,8 +97,14 @@ h4 {
 }
 
 
+.plist{
+    color: white;
+}
 
 
+.intlist{
+    color:white;
+}
 /* Color Palette:
 Light Shades: #F9F7F7;
 Light Accent: #76AAB5;
