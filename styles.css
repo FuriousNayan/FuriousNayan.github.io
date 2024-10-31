@@ -105,6 +105,18 @@ h4 {
 .intlist{
     color:white;
 }
+
+
+.column{
+    display: inline-block;
+    float: left;
+    width: 31%;
+    margin: 1em;
+    background-color: rgba(0,0,0,0)
+}
+
+
+
 /* Color Palette:
 Light Shades: #F9F7F7;
 Light Accent: #76AAB5;
