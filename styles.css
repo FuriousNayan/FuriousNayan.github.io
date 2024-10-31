@@ -34,7 +34,7 @@ p{
 }
 
 
-.image {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -93,7 +93,7 @@ h4 {
 
 
 .heads{
-    margin-top: 100px;
+    margin-top: 300px;
 }
 
 
