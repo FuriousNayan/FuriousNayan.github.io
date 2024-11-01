@@ -93,7 +93,7 @@ h4 {
 
 
 .heads{
-    margin-top: 300px;
+    margin-top: 100px;
 }
 
 
@@ -104,6 +104,7 @@ h4 {
 
 .intlist{
     color:white;
+    text-align: center;
 }
 
 
@@ -114,6 +115,22 @@ h4 {
     margin: 1em;
     background-color: rgba(0,0,0,0)
 }
+
+
+#ContactInfo{
+    margin-top: 100px
+}
+
+.contacttext{
+    margin-top: 100px;
+}
+
+ul.has-list-bullet {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 
 @media screen and (max-width: 600px){
     .column{
