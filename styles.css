@@ -52,7 +52,7 @@ img {
     list-style-type: none; 
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: #0d151c;
     justify-content: space-evenly; /* Evenly space items */
     align-items: center; /* Center items vertically */
 }
