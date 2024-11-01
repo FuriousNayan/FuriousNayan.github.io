@@ -115,7 +115,11 @@ h4 {
     background-color: rgba(0,0,0,0)
 }
 
-
+@media screen and (max-width: 600px){
+    .column{
+        width: 100%;
+    }
+}
 
 /* Color Palette:
 Light Shades: #F9F7F7;
