@@ -6,61 +6,29 @@ body {
     font-family: 'Poppins';
 }
 
-
-.profile {
+.profile, .allinfo, p {
     text-align: center;
     color: #76aab5;
     font-size: large;
-    
 }
-
-
-.allinfo {
-    text-align: center;
-    width: 60%;
-    margin: 0 auto; /* Centers the element horizontally */
-    color: #76aab5;
-}
-
-
-h1 {
-    text-align: center;
-    color: #F9F7F7;
-}
-
-p{
-    color: #76aab5;
-    text-align: center;
-}
-
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 50%;
     border-radius: 70%;
 }
 
 .navbar {
     width: 100%;
-    position: -webkit-sticky;
     position: fixed;
-    top:0;
+    top: 0;
     display: flex;
-    flex-wrap: wrap;
-    list-style-type: none; 
+    list-style: none;
     margin: 0;
     padding: 0;
     background-color: #0d151c;
-    justify-content: space-evenly; /* Evenly space items */
-    align-items: center; /* Center items vertically */
-}
-
-#navlist {
-    
-    flex: 1; /* Make each item take equal space */
-    text-align: center; /* Center text within each item */
+    justify-content: space-evenly;
 }
 
 #navlist a {
@@ -74,74 +42,43 @@ img {
     background-color: #111;
 }
 
-.active {
-    background-color: #04AA6D;
-}
-
-
-
-ol {
-    color: #76aab5;
-    
-}
-
-h4 {
-    font-size: large;
-    color: white;
-}
-
-
-
-.heads{
+.heads {
     margin-top: 100px;
 }
 
-
-.plist{
-    color: white;
+/* Commenting out the previous .column styling */
+.column {
+    /* display: inline-block;
+       float: left;
+       width: 31%;
+       margin: 1em;
+       background-color: rgba(0,0,0,0); */
 }
 
-
-.intlist{
-    color:white;
-    text-align: center;
-}
-
-
-.column{
-    display: inline-block;
-    float: left;
-    width: 31%;
-    margin: 1em;
-    background-color: rgba(0,0,0,0)
-}
-
-
-#ContactInfo{
-    margin-top: 100px
-}
-
-.contacttext{
-    margin-top: 100px;
-}
-
-ul.has-list-bullet {
+/* New Flexbox styling */
+.container {
+    background-color: #0f0e17;
+    padding: 20px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-  }
+    height: 300px;
+}
 
-@media screen and (max-width: 600px){
-    .column{
+.box {
+    background-color: #222237;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box {
         width: 100%;
     }
 }
-
-/* Color Palette:
-Light Shades: #F9F7F7;
-Light Accent: #76AAB5;
-Main Brand Color: #877DA1;
-Dark Accent: #659AAF;
-Dark Shades: #191728;
-*/
