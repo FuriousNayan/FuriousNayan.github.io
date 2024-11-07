@@ -69,6 +69,10 @@ img {
     color: #ffffff;
 }
 
+.contacttext{
+    margin-top: 100px;
+}
+
 .column:nth-child(1) {
     background-color: #1e3a5f;
 }
